@@ -1,0 +1,23 @@
+# 呪術廻戦 — Cursed Technique Visualizer
+
+A browser-based hand gesture recognition system that lets you cast Jujutsu Kaisen 
+techniques with real hand movements. Built with Three.js particle systems and 
+MediaPipe Hands for real-time landmark detection — no backend, no ML training, 
+just vanilla JS and WebGL.
+
+## Features
+- 🖐️ Real-time hand tracking via webcam (MediaPipe Hands)
+- ✨ 20,000-particle GPU-accelerated system morphing between techniques
+- 🎮 Gesture-based technique triggers:
+  - Pinch → Hollow Purple
+  - Open palm → Malevolent Shrine (Domain Expansion)
+  - Peace sign variant → Infinite Void
+  - Index finger → Reverse Cursed Technique: Red
+- 🎨 Dynamic bloom post-processing that intensifies per technique
+- 📷 Live camera feed overlay with skeleton tracking visualization
+
+## Tech Stack
+Three.js · MediaPipe Hands · WebGL · EffectComposer/UnrealBloomPass · Vanilla JS
+
+## Try It
+[Live Demo](#) — requires webcam access
